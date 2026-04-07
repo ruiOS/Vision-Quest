@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24837" systemVersion="25E246" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CDFace" representedClassName="CDFace" syncable="YES">
+        <attribute name="assetId" optional="YES" attributeType="String"/>
+        <attribute name="boundingBoxHeight" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="boundingBoxWidth" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="boundingBoxX" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="boundingBoxY" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="personName" optional="YES" attributeType="String"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDPerson" inverseName="faces" inverseEntity="CDPerson"/>
+    </entity>
+    <entity name="CDPerson" representedClassName="CDPerson" syncable="YES">
+        <attribute name="defaultFaceId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="faces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDFace" inverseName="person" inverseEntity="CDFace"/>
+    </entity>
+    <entity name="CDScannedAsset" representedClassName="CDScannedAsset" syncable="YES">
+        <attribute name="assetId" attributeType="String"/>
+    </entity>
+</model>

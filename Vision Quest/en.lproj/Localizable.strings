@@ -1,0 +1,34 @@
+/*
+  Localizable.strings
+  Vision Quest
+
+  Created by Lurdhu Rupesh Kumar Pudota on 07/04/26.
+  
+*/
+
+// MARK: - Tab Bar
+"com.visionQuest.tabBar.photos" = "Photos";
+"com.visionQuest.tabBar.people" = "People";
+
+// MARK: - Photo List
+"com.visionQuest.settingsRedirection.title" = "Please provide library access to scan photos";
+"com.visionQuest.settingsRedirection.buttonText" = "Open Settings";
+"com.visionQuest.photos.list.title" = "All Photos";
+"com.visionQuest.photos.list.scanButton" = "Scan Photo Library";
+"com.visionQuest.photos.list.fetchTitle" = "Fetching";
+"com.visionQuest.photos.list.fetchMessage" = "Please wait...";
+"com.visionQuest.photos.list.scanFormat" = "Scanning Photos";
+
+// MARK: - People List
+"com.visionQuest.people.list.title" = "People";
+"com.visionQuest.people.list.emptyState" = "List of People will come once you start tagging photos";
+
+// MARK: - Tagging / Detail
+"com.visionQuest.tagging.fullNamePlaceholder" = "Name";
+"com.visionQuest.tagging.makeDefaultProfile" = "Set as person's reference picture";
+"com.visionQuest.tagging.saveTag" = "Save Tag";
+
+// MARK: - Tagging Sheet
+"com.visionQuest.tagging.sheet.title" = "Tag Person";
+"com.visionQuest.tagging.sheet.searchPlaceholder" = "Search or enter new name";
+"com.visionQuest.tagging.sheet.addNewTag" = "Add new tag";
