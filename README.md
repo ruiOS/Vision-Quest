@@ -65,3 +65,7 @@ This application follows a strict **Clean MVVM Architecture** enhanced with **Bu
 3. Ensure the active scheme is set to **Vision Quest**.
 4. Select a Simulator or physical iOS device (iOS 15.0+).
 5. Press `Cmd + R` or click the **Play** button to build and run the application.
+
+https://github.com/user-attachments/assets/8638eafd-fa68-4c22-a184-71eced4258c3
+
+https://github.com/user-attachments/assets/d199d320-66a1-411b-a9db-806d0fc7e04c
